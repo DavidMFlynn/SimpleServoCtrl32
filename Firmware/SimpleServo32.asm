@@ -240,7 +240,7 @@ I2C_ARRAY_RX 	res	TX_ELEMENTS 	; array to receive from master
 	BigBuffer:0x80
 	endc
 ;
-	include <ServoLib.h>
+	include <ServoLib32.h>
 ;
 ;=======================================================================================================
 ;  Common Ram 70-7F same for all banks
@@ -546,7 +546,7 @@ MainLoop	CLRWDT
 ;
 	goto	MainLoop
 ;
-	include <ServoLib.inc>
+	include <ServoLib32.inc>
 ;
 ;=========================================================================================
 ;=========================================================================================
